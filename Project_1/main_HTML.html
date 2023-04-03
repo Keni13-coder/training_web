@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Госсен</title>
+	<link rel="stylesheet" href="Css.css" >
+	<!-- Выпоняет подключение Js после основного контента -->
+	<script src="libs/gsap/gsap.min.js" defer></script> 
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+	<script src="js.js"defer></script>
+
+
+
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="content">
+			<Header class="hero-section"><!--Шапка-->
+				<!-- data-lag - эффект резины -->
+				<img data-lag=".5" data-speed=".4" class="Hero_img" src="img/gusion_1.4.png" alt="НЕ нашло" id="Heros">
+				<img data-lag=".5" data-speed=".4" class="Hero_img" src="img/png3.png" alt="" id="gsbd">
+				<div class="container">
+				
+					<div data-speed="1" class="main-header">
+						<h1 class="main-title">Gusion your friend</h1>
+				
+						
+						
+					</div>
+				</div>
+			</Header>	
+			<!-- создаем основной блок с госсенами -->
+			
+		<div class="portfolio">
+			<div class="container">
+				<main class="gusion"> <!--Главный контейнер-->
+					<!-- будем делить на лево и право -->
+					
+					<div data-speed=""  class="gusion__left"> <!--1 контейнер занимает половину всего контейнера по часовой-->
+						<img class="description gusion__item " src="img/gusion-mobile-legends.png" alt="НЕ нашло" id="description">
+						<div class="text-block gusion__item">
+							<h2 class="text-block__h">Пассивное умение "Мастер кинжалов"</h2>
+							<p class="text-block__p">Каждый раз, когда Госсен использует способности, к кинжалу героя добавляется специальная руна. После суммирования 3 рун следующая обычная атака нанесет дополнительный урон, который равен 15% потерянных очков здоровья цели. Также 80% от нанесенного дамага преобразуется в здоровье Госсена и частично восстановит его.</p>
+						</div>
+						<img class="gusion__item" src="img/gusion-skill-2.png" alt="" id="slill-2">
+						<div class="text-block gusion__item">
+							<h2 class="text-block__h">Пытка кинжалами</h2>
+							<p class="text-block__p">Госсен бросает вперед клинки, каждый из которых нанесет пораженным врагам 110(+50%общей магической силы) единиц магического урона и замедлит их на 6% на 2 сек. (Эффект замедления от нескольких клинков может складываться, до 30%.)
+								Повторное использование: Госсен призывает клинки обратно, каждый из которых нанесет 65(+40%общей магической силы) единиц магического урона врагам на пути.
+								
+								</p>
+						</div>
+						<img class="gusion__item" src="img/gusion-skill-4.png" alt="" id="slill-4">
+						
+					
+						
+					</div>
+					<div data-speed="" class="gusion__right" ><!--2 контейнер занимает половину всего контейнера по часовой-->
+						
+						<div class="description" id="clasis" >
+							<h2 class="description" >Убийца Госсен</h2>
+							<p class="text-block__p">Юный герцог Пэксли, который использует не совсем традиционное оружие для битв. Он наполняет свой клинок магией и разделяет его на тысячу других, заставляя страдать своих соперников от тысячи ранений</p>
+						</div>
+						<img class="gusion__item" src="img/gusion-skill-passiv.png" alt="" id="passiv">
+						<div class="text-block gusion__item">
+							<h2 class="text-block__h">Бросок кинжала</h2>
+							<p class="skill" id="1skill">Госсен бросает клинок в указанном направлении, нанося 200(+50%общей магической силы) единиц магического урона первой цели на пути полета.
+								Повторное использование: Используйте этот навык снова, чтобы оказаться сзади цели и атаковать ее, нанося 200(+100%общей магической силы) единиц магического урона.</p>
+						</div>
+						<img class="gusion__item" src="img/gusion-skill-3.png" alt="" id="slill-3" >
+						<div class="text-block gusion__item">
+							<h2 class="text-block__h">Безумный накал</h2>
+							<p class="text-block__p">Госсен прыгает в указанную область, немедленно перезаряжая Бросок кинжала и Пытку кинжалами.
+								Повторное использование: Используйте этот навык снова, чтобы переместиться на короткую дистанцию в выбранном направлении. После перезарядки Пытки кинжалами, Госсен сможет немедленно метнуть пять кинжалов и вернуть уже десять, если использовать навык снова.</p>
+						</div>
+						
+						
+					</div>
+				
+				</main>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
